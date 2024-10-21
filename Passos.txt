@@ -1,0 +1,33 @@
+1- Comando: pip install flet
+
+Instalação do Flet que é uma ferramenta do python para criação de sites, aplicativos e programas de computador. 
+Flet é uma biblioteca Python que permite criar interfaces gráficas de usuário (GUIs) para sites, aplicativos e programas de desktop de maneira simples e fácil,
+usando apenas Python. Ele é uma alternativa mais recente para quem deseja construir aplicativos com interfaces modernas, sem a necessidade de usar HTML, CSS ou JavaScript diretamente.
+Com Flet, você pode construir tanto aplicativos web quanto aplicativos desktop usando Python, similar ao que se faz com Flutter.
+
+2- Importar o flet:
+import flet
+3-Criar uma função principal para rodar o seu aplicativo.
+def main():
+4-Executar essa função com flet
+ft.app(main)
+
+Passo a Passo
+#Tela Inicial:
+    #titulo: Hashzap
+    Botão: Iniciar chat
+        Quando clicar no botão:
+        Abrir um pop/modal/alerta 
+            Titulo: Bem vindo ao Hashzap
+            Caixa de texto: Escreva seu nome no chat
+            Botão: Entrar no chat
+                #Quando clicar no botão
+                #fechar o popup
+                #sumir com o título
+                #Sumir com o botão Iniciar chat
+                    #Carregar o chat
+                    #Carregar o campo de enviar mensagem: Digite seu nome
+                    #Botão enviar
+                        #Quando clicar no botão enviar
+                        Enviar a mensagem.
+                        Limpar a caixa de mensagem.
